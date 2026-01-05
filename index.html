@@ -2,23 +2,37 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Profil Data Diri</title>
+    <title>Profil Saya</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
+            background: #f4f6f8;
             margin: 0;
-            padding: 0;
+        }
+
+        nav {
+            background: #2c3e50;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         .container {
-            width: 80%;
             max-width: 800px;
-            margin: 40px auto;
-            background-color: #ffffff;
+            margin: 30px auto;
+            background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
         .profile-header {
@@ -27,72 +41,28 @@
 
         .profile-header img {
             width: 150px;
-            height: 150px;
             border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 10px;
-        }
-
-        h1 {
-            margin: 10px 0 5px;
-        }
-
-        h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            color: #333;
-        }
-
-        .info p {
-            margin: 6px 0;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            color: #777;
-            font-size: 14px;
         }
     </style>
 </head>
 <body>
 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="galeri.html">Galeri</a>
+</nav>
+
 <div class="container">
     <div class="profile-header">
         <img src="https://via.placeholder.com/150" alt="Foto Profil">
         <h1>Nama Lengkap</h1>
-        <p>Pelajar / Mahasiswa / Profesi</p>
+        <p>Pelajar / Mahasiswa</p>
     </div>
 
-    <div class="info">
-        <h2>Data Diri</h2>
-        <p><strong>Nama:</strong> Nama Lengkap</p>
-        <p><strong>Tempat, Tanggal Lahir:</strong> Kota, 1 Januari 2000</p>
-        <p><strong>Alamat:</strong> Alamat Lengkap</p>
-        <p><strong>Email:</strong> email@example.com</p>
-        <p><strong>No. HP:</strong> 08xxxxxxxxxx</p>
-    </div>
-
-    <div class="info">
-        <h2>Tentang Saya</h2>
-        <p>
-            Saya adalah seseorang yang tertarik pada bidang teknologi dan
-            senang belajar hal baru, khususnya dalam pemrograman dan desain web.
-        </p>
-    </div>
-
-    <div class="info">
-        <h2>Hobi</h2>
-        <ul>
-            <li>Membaca</li>
-            <li>Ngoding</li>
-            <li>Olahraga</li>
-        </ul>
-    </div>
-
-    <div class="footer">
-        &copy; 2026 - Web Profil Pribadi
-    </div>
+    <h2>Data Diri</h2>
+    <p><strong>Email:</strong> email@example.com</p>
+    <p><strong>No HP:</strong> 08xxxxxxxxxx</p>
 </div>
 
 </body>
